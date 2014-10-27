@@ -14,3 +14,7 @@ set noexpandtab
 set ts=4
 set sw=4
 
+augroup myvimrc
+    au!
+    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC
+augroup END
