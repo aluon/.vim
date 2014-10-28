@@ -1,5 +1,6 @@
 set runtimepath^=~/.vim
 set nocompatible
+set backspace=indent,eol,start
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -15,8 +16,9 @@ colorscheme molokai
 set number
 set ruler
 set wildmenu
+set wildmode=longest:full
 set laststatus=2
-set scrolloff=1
+set scrolloff=5
 set relativenumber
 set noexpandtab
 set ts=4
