@@ -1,3 +1,4 @@
 call vundle#begin()
 Plugin 'tomasr/molokai'
+Plugin 'godlygeek/tabular'
 call vundle#end()
