@@ -1,4 +1,9 @@
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
 Plugin 'tomasr/molokai'
 Plugin 'godlygeek/tabular'
+Plugin 'bling/vim-airline'
+Plugin 'verilog_systemverilog.vim'
 call vundle#end()
